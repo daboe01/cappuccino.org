@@ -14,9 +14,7 @@ tags:
 
 ##### New
 
-- The method `-(void)bind:toObject:withKeyPath:options:` now checks if another exclusive binding exists. ([cacaodev](https://github.com/cacaodev) - [PR](https://github.com/cappuccino/cappuccino/pull/2207))
-
-- Added the private method `+(void)_reverseSetValueFromExclusiveBinderForObject:` in `CPBinder` to send the value back to the bound object when you don't know the original binding name. ([cacaodev](https://github.com/cacaodev) - [PR](https://github.com/cappuccino/cappuccino/pull/2207))
+- Nothing to declare
 
 ##### Changes/Fixes
 
