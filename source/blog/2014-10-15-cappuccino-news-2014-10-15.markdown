@@ -1,0 +1,25 @@
+---
+title: Cappuccino News 2014 October 15st
+author: Daniel Boehringer
+author_email: daboe01@gmail.com
+date: '2014-10-15'
+tags:
+- Cappuccino
+- update
+---
+
+> Every two weeks, we show you how Cappuccino is growing.
+
+### Cappuccino
+
+##### New
+
+- The method `-(void)bind:toObject:withKeyPath:options:` now checks if another exclusive binding exists. ([cacaodev](https://github.com/cacaodev) - [PR](https://github.com/cappuccino/cappuccino/pull/2207))
+
+- Added the private method `+(void)_reverseSetValueFromExclusiveBinderForObject:` in `CPBinder` to send the value back to the bound object when you don't know the original binding name. ([cacaodev](https://github.com/cacaodev) - [PR](https://github.com/cappuccino/cappuccino/pull/2207))
+
+##### Changes/Fixes
+
+- The method `- (BOOL)popoverShouldClose:` is now called called in transient and semi-transient mode. ([primalmotion])
+
+- Popover windows are now trapping the next mouse event unless the delegate responds to the method `- (BOOL)popoverShouldClose:` ([primalmotion])
